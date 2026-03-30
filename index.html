@@ -22,11 +22,12 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit&family=Roboto&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="/index.css" />
   </head>
   <body>
     <header class="header">
-      <nav>
+      <nav class="nav-1">
         <div class="logo">
           <img
             class="logo-img"
@@ -44,16 +45,27 @@
 
         <button class="start-button" type="button">start for £34.99</button>
       </nav>
+      <nav class="nav-2">
+        <button class="menu-btn" type="button">
+          <span class="material-symbols-rounded"> dehaze </span>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">What's Included</a>
+          <a href="#">Pricing</a>
+          <a href="#">How it works</a>
+          <a href="#">FAQ</a>
+        </div>
+      </nav>
     </header>
     <main>
       <!-- hero section -->
       <section class="hero-section">
         <article class="hero-content">
-          <h1>Websites done for you - fast, simple, stress-free.</h1>
           <article class="special-offer-container">
             <span class="material-symbols-rounded">verified</span>
             <h2>Just Launched - Special offer for new clients</h2>
           </article>
+          <h1>Websites done for you - fast, simple, stress-free.</h1>
           <p>
             A clean, professional website -- written, designed, and handled
             entirely for you. Just <strong> £34.99 a month </strong>. No tech
@@ -71,11 +83,11 @@
               <span class="material-symbols-rounded star">star</span>
               <span class="material-symbols-rounded star">star</span>
             </div>
-            <h3>Launched by 100+ small business</h3>
+            <h3>Launched by 100+ small businesses</h3>
           </div>
         </article>
         <article class="hero-image">
-          <img src="/assets/img/hero-image.webp" alt="hero image" />
+          <!-- <img src="/assets/img/hero-image.webp" alt="hero image" /> -->
           <div class="calendar-container">
             <div class="icon-container">
               <span class="material-symbols-outlined">calendar_month</span>
@@ -100,13 +112,16 @@
       <section class="other-sections">
         <h1>Other contents...</h1>
       </section>
-      <!-- FAQ section -->
+      <!-- FAQ section -->4
       <section class="faq-section">
-        <h2>FAQ</h2>
-        <h3>Everything you need to know</h3>
-        <h4>
-          If your question isn't here, just get in touch - we're happy to chat.
-        </h4>
+        <header>
+          <h2>FAQ</h2>
+          <h3>Everything you need to know</h3>
+          <h4>
+            If your question isn't here, just get in touch - we're happy to
+            chat.
+          </h4>
+        </header>
         <article class="faq-article">
           <details>
             <summary>Do I really not have to write anything?</summary>
